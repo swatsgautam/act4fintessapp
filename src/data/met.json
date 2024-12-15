@@ -1,0 +1,5 @@
+[
+    { "activity": "Running", "MET": 7.5 },
+    { "activity": "Cycling", "MET": 8.5 },
+    { "activity": "Walking", "MET": 3.8 }
+  ]
