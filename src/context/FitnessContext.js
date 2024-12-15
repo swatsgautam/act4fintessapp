@@ -1,4 +1,3 @@
-
 import React, { createContext, useEffect, useState } from 'react';
 
 export const FitnessContext = createContext();
@@ -19,7 +18,7 @@ export const FitnessProvider = ({ children }) => {
     const savedUserStats = localStorage.getItem('userStats');
     return savedUserStats
       ? JSON.parse(savedUserStats)
-      : { weight: 70, height: 170, goalWeight: 65 };
+      : { weight: 70, height: 170, goalWeight: 65, calorie: 5000 };
   });
 
   // Save activities to localStorage whenever they change
