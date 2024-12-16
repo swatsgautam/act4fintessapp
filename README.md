@@ -54,6 +54,7 @@ git clone https://github.com/swatsgautam/act4fintessapp.git
 cd act4fitnessapp
 npm install
 npm start
+```
 
 ## **Usage**
 
